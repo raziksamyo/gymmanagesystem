@@ -8,11 +8,11 @@ import Footer from "./Component/Footer";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       <About />
-      {/* <Schedule /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Schedule />
+      <Contact />
+      <Footer />
     </div>
   );
 }
