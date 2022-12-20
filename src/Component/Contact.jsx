@@ -4,12 +4,12 @@ import contactform from "../images/contact-bg.jpg";
 
 const Contact = () => {
   return (
-    <div className=" flex justify-center ">
-      <div className="w-1/2">
+    <div className="lg:flex justify-center">
+      <div className="lg:w-1/2 lg:mx-0 mx-3">
         <AddressMap />
       </div>
       <div
-        className=" w-1/2 bg-cover px-20 py-20"
+        className="lg:w-1/2 bg-cover px-20 py-20 lg:mx-0 mx-3 lg:my-0 my-3"
         style={{ backgroundImage: `url(${contactform})` }}
       >
         <div className="rounded-md bg-white  px-10 py-10">
@@ -52,11 +52,13 @@ const Contact = () => {
                 required=""
               ></textarea>
             </div>
-            <div className="text-white bg-red-500 px-5 py-2.5 w-1/4 text-center">
-              <button type="submit" id="form-submit">
-                Send Message
-              </button>
-            </div>
+
+            <button
+              type="submit"
+              className="text-white bg-red-500 px-5 py-2.5 text-center"
+            >
+              Send Message
+            </button>
           </form>
         </div>
       </div>

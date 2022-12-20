@@ -1,162 +1,105 @@
 import React from "react";
 import Img1 from "../images/line-dec.png";
 import Img2 from "../images/features-first-icon.png";
+import Img3 from "../images/cta-bg.jpg";
 
 const About = () => {
-  return (
-    // <>
-    //   <div>
-    //     <div>
-    //       <div>
-    //         <div>
-    //           <div>
-    //             <h2>
-    //               Choose <em>Program</em>
-    //             </h2>
-    //             <img src={Img1} alt="waves" />
-    //             <p>
-    //               Training Studio is free CSS template for gyms and fitness
-    //               centers. You are allowed to use this layout for your business
-    //               website.
-    //             </p>
-    //           </div>
-    //         </div>
-    //         <div>
-    //           <ul>
-    //             <li>
-    //               <div>
-    //                 <img src={Img2} alt="First One" />
-    //               </div>
-    //               <div>
-    //                 <h4>Basic Fitness</h4>
-    //                 <p>
-    //                   Please do not re-distribute this template ZIP file on any
-    //                   template collection website. This is not allowed.
-    //                 </p>
-    //                 <a href="#">Discover More</a>
-    //               </div>
-    //             </li>
-    //             <li>
-    //               <div>
-    //                 <img src={Img2} alt="First One" />
-    //               </div>
-    //               <div>
-    //                 <h4>New Gym Training</h4>
-    //                 <p>
-    //                   If you wish to support TemplateMo website via PayPal,
-    //                   please feel free to contact us. We appreciate it a lot.
-    //                 </p>
-    //                 <a href="#">Discover More</a>
-    //               </div>
-    //             </li>
-    //             <li>
-    //               <div>
-    //                 <img src={Img2} alt="First One" />
-    //               </div>
-    //               <div>
-    //                 <h4>Basic Muscle Course</h4>
-    //                 <p>
-    //                   Credit goes to{" "}
-    //                   <a
-    //                     rel="nofollow"
-    //                     href="https://www.pexels.com"
-    //                     target="_blank"
-    //                   >
-    //                     Pexels website
-    //                   </a>
-    //                   for images and video background used in this HTML
-    //                   template.
-    //                 </p>
-    //                 <a href="#">Discover More</a>
-    //               </div>
-    //             </li>
-    //           </ul>
-    //         </div>
-    //         <div>
-    //           <ul>
-    //             <li>
-    //               <div>
-    //                 <img src={Img2} alt="First One" />
-    //               </div>
-    //               <div>
-    //                 <h4>Advanced Muscle Course</h4>
-    //                 <p>
-    //                   You may want to browse through{" "}
-    //                   <a
-    //                     rel="nofollow"
-    //                     href="https://templatemo.com/tag/digital-marketing"
-    //                     target="_parent"
-    //                   >
-    //                     Digital Marketing
-    //                   </a>{" "}
-    //                   or{" "}
-    //                   <a href="https://templatemo.com/tag/corporate">
-    //                     Corporate
-    //                   </a>{" "}
-    //                   HTML CSS templates on our website.
-    //                 </p>
-    //                 <a href="#">Discover More</a>
-    //               </div>
-    //             </li>
-    //             <li>
-    //               <div>
-    //                 <img src={Img2} alt="First One" />
-    //               </div>
-    //               <div>
-    //                 <h4>Yoga Training</h4>
-    //                 <p>
-    //                   This template is built on Bootstrap v4.3.1 framework. It
-    //                   is easy to adapt the columns and sections.
-    //                 </p>
-    //                 <a href="#">Discover More</a>
-    //               </div>
-    //             </li>
-    //             <li>
-    //               <div>
-    //                 <img src={Img2} alt="First One" />
-    //               </div>
-    //               <div>
-    //                 <h4>Body Building Course</h4>
-    //                 <p>
-    //                   Suspendisse fringilla et nisi et mattis. Curabitur sed
-    //                   finibus nisi. Integer nibh sapien, vehicula et auctor.
-    //                 </p>
-    //                 <a href="#">Discover More</a>
-    //               </div>
-    //             </li>
-    //           </ul>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
+  const data = [
+    {
+      title: "Basic Fitness",
+      description:
+        "Please do not re-distribute this template ZIP file on any template collection website. This is not allowed.",
+    },
+    {
+      title: "Advanced Muscle Course",
+      description:
+        "You may want to browse through Digital Marketing Corporate HTML CSS templates on our website.",
+    },
 
-    //   {/* <!-- ***** Call to Action Start ***** --> */}
-    //   <section>
-    //     <div>
-    //       <div>
-    //         <div>
-    //           <div>
-    //             <h2>
-    //               Don’t <em>think</em>, begin <em>today</em>!
-    //             </h2>
-    //             <p>
-    //               Ut consectetur, metus sit amet aliquet placerat, enim est
-    //               ultricies ligula, sit amet dapibus odio augue eget libero.
-    //               Morbi tempus mauris a nisi luctus imperdiet.
-    //             </p>
-    //             <div>
-    //               <a href="#our-classes">Become a member</a>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </section>
-    //   {/* <!-- ***** Call to Action End ***** --> */}
-    // </>
-    <div className="p-36">
-      <div>Hello</div>
-    </div>
+    {
+      title: "Advanced Muscle Course",
+      description:
+        "You may want to browse through Digital Marketing Corporate HTML CSS templates on our website.",
+    },
+    {
+      title: "Advanced Muscle Course",
+      description:
+        "You may want to browse through Digital Marketing Corporate HTML CSS templates on our website.",
+    },
+    {
+      title: "Advanced Muscle Course",
+      description:
+        "You may want to browse through Digital Marketing Corporate HTML CSS templates on our website.",
+    },
+    {
+      title: "Advanced Muscle Course",
+      description:
+        "You may want to browse through Digital Marketing Corporate HTML CSS templates on our website.",
+    },
+  ];
+  return (
+    <>
+      <div className="sm:container mx-auto w-full">
+        <div className="mt-36 mb-20">
+          <div className="font-extrabold text-3xl tracking-wider text-center font-sans">
+            CHOOSE <em className="text-red-500 not-italic	font-sans	">PROGRAM</em>
+          </div>
+          <div className="my-5 flex	justify-center">
+            <img src={Img1} alt="waves" />
+          </div>
+          <div className="text-sm	leading-6	text-gray-500 sm:max-w-md text-center mx-auto font-sans">
+            Training Studio is free CSS template for gyms and fitness centers.
+            You are allowed to use this layout for your business website.
+          </div>
+
+          <div className="md:grid md:grid-cols-2 md:mx-0 mx-5">
+            {data.map((iteam) => (
+              <div className="mt-20">
+                <div className="md:tw-col-span-1">
+                  <div className="flex">
+                    <div>
+                      <img src={Img2} alt="" className="max-w-none mt-1.5" />
+                    </div>
+                    <div className="ml-7">
+                      <div className="mb-2 tracking-wide text-lg font-semibold font-sans">
+                        {iteam.title}
+                      </div>
+                      <div className="text-sm	leading-6	text-gray-500 font-sans">
+                        {iteam.description}
+                      </div>
+                      <div className="mt-2 text-sm font-medium text-orange-500 cursor-pointer	">
+                        <a href="#">Discover More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div style={{ backgroundImage: `url(${Img3})` }} className="py-32">
+        <div className="container mx-auto">
+          <div className=" text-center text-white font-extrabold text-4xl	font-sans uppercase">
+            Don’t <em className="text-red-500 not-italic">think</em>, begin
+            <em className="text-red-500 not-italic">today</em>!
+          </div>
+          <div className="text-center font-sans text-white max-w-4xl	mx-auto my-6">
+            Ut consectetur, metus sit amet aliquet placerat, enim est ultricies
+            ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris
+            a nisi luctus imperdiet.
+          </div>
+          <div className="text-center">
+            <a
+              href="#our-classes"
+              className="text-sm	bg-red-500 p-4 font-normal text-white"
+            >
+              Become a member
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
