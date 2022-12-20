@@ -55,12 +55,22 @@ const Schedule = () => {
               viverra ipsum dolor, ultricies fermentum massa consequat eu.
             </div>
             <div className="mt-20">
-              <ul className="flex justify-center">
-                <li className="mr-3 text-white cursor-pointer">Monday /</li>
-                <li className="mr-3 text-white cursor-pointer">Tuesday /</li>
-                <li className="mr-3 text-white cursor-pointer">Wednesday /</li>
-                <li className="mr-3 text-white cursor-pointer">Thursday /</li>
-                <li className="mr-3 text-white cursor-pointer">Friday </li>
+              <ul className="text-center">
+                <li className="mr-3 text-white cursor-pointer inline">
+                  Monday /
+                </li>
+                <li className="mr-3 text-white cursor-pointer inline">
+                  Tuesday /
+                </li>
+                <li className="mr-3 text-white cursor-pointer inline">
+                  Wednesday /
+                </li>
+                <li className="mr-3 text-white cursor-pointer inline">
+                  Thursday /
+                </li>
+                <li className="mr-3 text-white cursor-pointer inline">
+                  Friday{" "}
+                </li>
               </ul>
             </div>
             <div className="mt-10 sm:mx-20 mx-5">

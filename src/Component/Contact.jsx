@@ -14,9 +14,9 @@ const Contact = () => {
       >
         <div className="rounded-md bg-white  px-10 py-10">
           <form id="contact" action="" method="post">
-            <div className="w-full flex justify-between mb-7">
+            <div className="lg:flex lg:justify-between mb-7">
               <input
-                className="border-solid border border-inherit px-5 py-2 w-[48%] font-xs"
+                className="border-solid border border-inherit px-5 py-2 w-full lg:w-[48%] font-xs lg:mb-0 mb-7"
                 name="name"
                 type="text"
                 id="name"
@@ -24,7 +24,7 @@ const Contact = () => {
                 required=""
               />
               <input
-                className="border-solid border border-inherit px-5 py-2 w-[48%] font-xs"
+                className="border-solid border border-inherit px-5 py-2 lg:w-[48%] font-xs w-full"
                 name="email"
                 type="text"
                 id="email"
