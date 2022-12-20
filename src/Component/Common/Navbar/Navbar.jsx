@@ -1,16 +1,25 @@
+import clsx from "clsx";
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ afterScroll }) => {
   return (
-    <nav className="flex items-center justify-around w-2/3 ">
+    <nav className="flex items-center absolute justify-around w-2/3 sticky">
       <a
         href="index.html"
-        className="text-3xl uppercase  font-sans font-extrabold"
+        className={clsx("text-3xl uppercase  font-sans font-extrabold", {
+          "text-black": afterScroll,
+          "text-white": !afterScroll,
+        })}
       >
         GYM<em className="text-red-500 not-italic"> Management</em>
       </a>
 
-      <ul className=" h-full flex w-1/2 items-center justify-evenly">
+      <ul
+        className={clsx(" h-full flex w-1/2 items-center justify-evenly", {
+          "text-black": afterScroll,
+          "text-white": !afterScroll,
+        })}
+      >
         <li className="text-sm font-sans">
           <a href="#top" className="active">
             Home
