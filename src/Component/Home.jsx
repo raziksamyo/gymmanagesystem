@@ -1,19 +1,24 @@
 import React from "react";
-import Video from "../images/gym-video.mp4";
+import Video from "../images/pexels-tima-miroshnichenko-5319099.mp4";
 import Header from "./Common/Header/Header";
 const Home = () => {
   return (
     <>
       {/* <!-- ***** Main Banner Area Start ***** --> */}
       <Header />
-      <div className="relative -mt-20">
-        <video autoplay muted loop id="bg-video">
+      <div className="relative h-screen overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          className="absolute min-w-full min-h-screen max-w-full max-h-screen object-cover -z-10"
+        >
           <source src={Video} type="video/mp4" />
         </video>
 
-        <div className=" h-full w-full flex justify-center absolute top-0 bg-gray-600 bg-opacity-60">
-          <div className=" text-center absolute top-1/3">
-            <h6 className=" text-lg text-white uppercase  font-sans font-extrabold ">
+        <div className=" h-full w-full flex items-center justify-center top-0 bg-gray-600 bg-opacity-60">
+          <div className="text-center">
+            <h6 className=" text-lg text-white uppercase  font-sans font-extrabold">
               work harder, get stronger
             </h6>
             <h2 className=" text-7xl mt-7 mb-6 text-white uppercase  font-sans font-extrabold ">

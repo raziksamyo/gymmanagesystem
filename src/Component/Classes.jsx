@@ -1,6 +1,6 @@
 import React from "react";
-import Img2 from "../images/tabs-first-icon.png";
 import Img1 from "../images/line-dec.png";
+import Img2 from "../images/tabs-first-icon.png";
 import FirstTraining from "../images/training-image-01.jpg";
 import SecondTraining from "../images/training-image-02.jpg";
 import ThirdTraining from "../images/training-image-03.jpg";
@@ -67,7 +67,7 @@ const Classes = () => {
             </button>
 
             {/*  Second Training  */}
-            <img src={SecondTraining} alt="" className="rounded w-full" />
+            {/* <img src={SecondTraining} alt="" className="rounded w-full" />
             <div className="my-5 font-bold text-2xl	tracking-wider">
               First Training Class
             </div>
@@ -79,10 +79,10 @@ const Classes = () => {
             </p>
             <button className="text-center bg-red-500 py-3 px-5 font-normal rounded cursor-pointer text-sm uppercase text-white mt-7">
               View Schedule
-            </button>
+            </button> */}
 
             {/* Third Training */}
-            <img src={ThirdTraining} alt="" className="rounded w-full" />
+            {/* <img src={ThirdTraining} alt="" className="rounded w-full" />
             <div className="my-5 font-bold text-2xl	tracking-wider">
               First Training Class
             </div>
@@ -94,10 +94,10 @@ const Classes = () => {
             </p>
             <button className="text-center bg-red-500 py-3 px-5 font-normal rounded cursor-pointer text-sm uppercase text-white mt-7">
               View Schedule
-            </button>
+            </button> */}
 
             {/* Fourth Training */}
-            <img src={FourthTraining} alt="" className="rounded w-full" />
+            {/* <img src={FourthTraining} alt="" className="rounded w-full" />
             <div className="my-5 font-bold text-2xl	tracking-wider">
               First Training Class
             </div>
@@ -109,7 +109,7 @@ const Classes = () => {
             </p>
             <button className="text-center bg-red-500 py-3 px-5 font-normal rounded cursor-pointer text-sm uppercase text-white mt-7">
               View Schedule
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

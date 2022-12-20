@@ -9,10 +9,10 @@ const Contact = () => {
         <AddressMap />
       </div>
       <div
-        className="lg:w-1/2 bg-cover px-20 py-20 lg:mx-0 mx-3 lg:my-0 my-3"
+        className="lg:w-1/2 bg-cover sm:px-20 px-10 sm:py-20 py-10 lg:mx-0 mx-3 lg:my-0 my-3"
         style={{ backgroundImage: `url(${contactform})` }}
       >
-        <div className="rounded-md bg-white  px-10 py-10">
+        <div className="rounded-md bg-white  sm:px-10 px-3 py-10">
           <form id="contact" action="" method="post">
             <div className="lg:flex lg:justify-between mb-7">
               <input

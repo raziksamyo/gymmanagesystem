@@ -3,12 +3,12 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
-  const [small, setSmall] = useState(false);
+  const [afterScroll, setAfterScroll] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset > 500)
+        setAfterScroll(window.pageYOffset > 500)
       );
     }
   }, []);
@@ -16,14 +16,14 @@ const Header = () => {
   return (
     <div
       className={clsx(
-        "transition-transform h-20 w-full flex justify-center sticky top-0 z-50",
+        "transition-all duration-1000 h-20 w-full flex justify-center items-center fixed top-0 z-50",
         {
-          "bg-white text-black": small,
-          "bg-gray-600 bg-opacity-20": !small,
+          "bg-white text-black": afterScroll,
+          "bg-gray-600 bg-opacity-20": !afterScroll,
         }
       )}
     >
-      <Navbar afterScroll={small} />
+      <Navbar afterScroll={afterScroll} />
     </div>
   );
 };
