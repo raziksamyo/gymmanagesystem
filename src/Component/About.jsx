@@ -38,7 +38,7 @@ const About = () => {
     },
   ];
   return (
-    <>
+    <div id="features">
       <div className="sm:container mx-auto w-full">
         <div className="mt-36 mb-20">
           <div className="font-extrabold text-3xl tracking-wider text-center font-sans">
@@ -64,7 +64,7 @@ const About = () => {
                       <div className="mb-2 tracking-wide text-lg font-semibold font-sans">
                         {iteam.title}
                       </div>
-                      <div className="text-sm	leading-6	text-gray-500 font-sans">
+                      <div className="text-sm	leading-6	text-gray-500 font-sans sm:max-w-md">
                         {iteam.description}
                       </div>
                       <div className="mt-2 text-sm font-medium text-orange-500 cursor-pointer	">
@@ -99,7 +99,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

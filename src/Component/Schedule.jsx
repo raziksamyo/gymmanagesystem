@@ -36,7 +36,7 @@ const Schedule = () => {
     },
   ];
   return (
-    <>
+    <div id="schedule">
       <div
         style={{ backgroundImage: `url(${Img2})` }}
         className="py-36 bg-center bg-no-repeat bg-cover"
@@ -199,7 +199,7 @@ const Schedule = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

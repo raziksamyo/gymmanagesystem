@@ -22,7 +22,7 @@ const Classes = () => {
     },
   ];
   return (
-    <div className="sm:container w-full mx-auto">
+    <div className="sm:container w-full mx-auto" id="classes">
       <div className="my-36">
         <div className="font-extrabold text-3xl tracking-wider text-center font-sans">
           Our <em className="text-red-500 not-italic font-sans	">Classes</em>

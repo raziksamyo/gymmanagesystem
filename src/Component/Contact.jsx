@@ -4,7 +4,7 @@ import contactform from "../images/contact-bg.jpg";
 
 const Contact = () => {
   return (
-    <div className="lg:flex justify-center">
+    <div className="lg:flex justify-center" id="contact-us">
       <div className="lg:w-1/2 lg:mx-0 mx-3">
         <AddressMap />
       </div>

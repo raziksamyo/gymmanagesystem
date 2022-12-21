@@ -3,7 +3,7 @@ import Video from "../images/pexels-tima-miroshnichenko-5319099.mp4";
 import Header from "./Common/Header/Header";
 const Home = () => {
   return (
-    <>
+    <div id="home">
       {/* <!-- ***** Main Banner Area Start ***** --> */}
       <Header />
       <div className="relative h-screen overflow-hidden">
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
       {/* <!-- ***** Main Banner Area End ***** --> */}
-    </>
+    </div>
   );
 };
 
