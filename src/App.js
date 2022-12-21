@@ -8,14 +8,14 @@ import Classes from "./Component/Classes";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Home />
       <About />
       <Classes />
       <Schedule />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

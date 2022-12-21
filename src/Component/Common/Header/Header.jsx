@@ -16,10 +16,10 @@ const Header = () => {
   return (
     <div
       className={clsx(
-        "transition-all drop-shadow-lg duration-1000 h-20 w-full flex justify-center items-center fixed top-0 z-50",
+        "transition-all drop-shadow-lg duration-1000 h-auto py-5 lg:py-0 lg:h-20 w-full flex justify-center items-center fixed top-0 z-50",
         {
           "bg-white text-black": afterScroll,
-          "bg-gray-600 bg-opacity-20": !afterScroll,
+          "bg-gray-700 bg-opacity-50": !afterScroll,
         }
       )}
     >

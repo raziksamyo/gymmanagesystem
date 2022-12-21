@@ -17,7 +17,7 @@ const Home = () => {
         </video>
 
         <div className=" h-full w-full flex items-center justify-center top-0 bg-gray-600 bg-opacity-60">
-          <div className="text-center">
+          <div className="text-center mt-20 lg:mt-0">
             <h6 className=" text-lg text-white uppercase  font-sans font-extrabold">
               work harder, get stronger
             </h6>
